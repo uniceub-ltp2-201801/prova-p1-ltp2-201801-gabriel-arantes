@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    
+    <%@ page import="model.Professor" %>
+    
+    <% Professor p = (Professor)request.getAttribute("professor"); %>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="jumbotron">
+  <h1 class="display-4">Bem vindo, <%= c.getNomeprofessor() %>!</h1>
+  <hr class="my-4">
+  
+</div>
+
+</body>
+</html>
